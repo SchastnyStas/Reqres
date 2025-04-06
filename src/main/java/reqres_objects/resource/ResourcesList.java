@@ -1,4 +1,4 @@
-package reqres_objects;
+package reqres_objects.resource;
 
 import com.google.gson.annotations.Expose;
 import lombok.Builder;
@@ -8,8 +8,8 @@ import java.util.ArrayList;
 
 @Data
 @Builder
-public class UserList {
-    @Expose
-    ArrayList<UserForUsersList> data;
+public class ResourcesList {
 
+    @Expose
+    ArrayList<ResourceForResourcesList> data;
 }

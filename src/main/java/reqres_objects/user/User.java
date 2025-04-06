@@ -1,4 +1,4 @@
-package reqres_objects;
+package reqres_objects.user;
 
 import lombok.Builder;
 import lombok.Data;
@@ -10,4 +10,8 @@ public class User {
     String job;
     String id;
     String createdAt;
+    String email;
+    String password;
+    String token;
+    String error;
 }

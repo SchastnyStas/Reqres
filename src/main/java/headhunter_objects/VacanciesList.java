@@ -10,5 +10,4 @@ public class VacanciesList {
 
     @Expose
     ArrayList<Vacancy> items;
-
 }
